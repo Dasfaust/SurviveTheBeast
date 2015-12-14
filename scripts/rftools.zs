@@ -15,3 +15,10 @@ recipes.addShaped(<rftools:shapeCardItem:2>, [
 	[<minecraft:redstone>,<BuildCraft|Builders:machineBlock:0>,<minecraft:redstone>],
 	[<BuildCraft|Core:markerBlock>,<minecraft:redstone>,<BuildCraft|Core:markerBlock>]
 ]);
+
+// Dimlet recipe as an alt to endermen farms
+recipes.addShaped(<rftools:unknownDimlet>, [
+	[<rftools:infusedDiamondItem>,<ThermalFoundation:material:76>,<rftools:infusedDiamondItem>],
+	[<ThermalFoundation:material:76>,<minecraft:nether_star>,<ThermalFoundation:material:76>],
+	[<rftools:infusedDiamondItem>,<ThermalFoundation:material:76>,<rftools:infusedDiamondItem>]
+]);
