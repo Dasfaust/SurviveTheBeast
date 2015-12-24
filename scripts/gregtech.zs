@@ -13,3 +13,8 @@ recipes.addShapeless(<gregtech:gt.metaitem.01:11880>, [<MineFactoryReloaded:rubb
 recipes.addShapeless(<MineFactoryReloaded:rubber.bar>, [<gregtech:gt.metaitem.01:11880>]);
 
 mods.ic2.Macerator.addRecipe(<gregtech:gt.metaitem.01:2870> * 3, <ReactorCraft:reactorcraft_block_ore:8>);
+
+<ore:beeComb>.add(<gregtech:gt.comb:32>);
+<ore:beeComb>.add(<gregtech:gt.comb:26>);
+<ore:beeComb>.add(<gregtech:gt.comb:27>);
+<ore:beeComb>.add(<RotaryCraft:rotarycraft_item_modinterface:0>);
