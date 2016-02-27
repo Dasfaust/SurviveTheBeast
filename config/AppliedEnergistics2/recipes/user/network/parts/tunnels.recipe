@@ -1,0 +1,5 @@
+shaped=
+    _ oredictionary:ingotAluminum _,
+    oredictionary:ingotAluminum ae2:ItemMaterial.EngProcessor oredictionary:ingotAluminum,
+    fluixCrystal fluixCrystal fluixCrystal
+    -> ae2:ItemPart.P2PTunnelME

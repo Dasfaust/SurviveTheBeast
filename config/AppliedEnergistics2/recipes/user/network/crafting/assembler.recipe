@@ -1,0 +1,5 @@
+shaped=
+    oredictionary:ingotAluminum ae2:BlockQuartzGlass oredictionary:ingotAluminum,
+    ae2:ItemMaterial.AnnihilationCore oredictionary:craftingTableWood ae2:ItemMaterial.FormationCore,
+    oredictionary:ingotAluminum ae2:BlockQuartzGlass oredictionary:ingotAluminum
+    -> ae2:BlockMolecularAssembler

@@ -3,7 +3,7 @@
     {
       "type": "ElementText",
       "properties": {
-        "text": "We have a global trading system and a currency based on steel called 'bits'. Use \u0027/market listings\u0027 to browse the Market and manage your balance. Use \u0027/market ?\u0027 for other Market-related commands and \u0027/money\u0027 to check your balance.",
+        "text": "We have a global trading system called the Market and a currency based on steel called 'bits'. Use \u0027/market listings\u0027 to browse the Market and manage your balance. Use \u0027/market ?\u0027 for other Market-related commands and \u0027/money\u0027 to check your balance. For balance-related commands, see \u0027/money ?\u0027",
         "color": -1,
         "x": 39,
         "y": 59,

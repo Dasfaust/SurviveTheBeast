@@ -13,10 +13,6 @@
 <ore:oreUranium>.add(<ReactorCraft:reactorcraft_block_ore:1>);
 <ore:oreUranium>.add(<ReactorCraft:reactorcraft_block_ore:5>);
 
-// Natura
-<ore:string>.add(<minecraft:string>);
-<ore:string>.add(<Natura:barleyFood:7>);
-
 // RotaryCraft
 <ore:dustAluminium>.add(<TConstruct:materials:40>);
 <ore:dustAluminium>.add(<RotaryCraft:rotarycraft_item_powders:8>);

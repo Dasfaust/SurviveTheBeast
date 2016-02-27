@@ -1,0 +1,11 @@
+shaped=
+    oredictionary:ingotAluminum glass oredictionary:ingotAluminum,
+    glass oredictionary:dustFluix glass,
+    oredictionary:ingotAluminum glass oredictionary:ingotAluminum
+    -> ae2:BlockCondenser
+
+shaped=
+    glass glass glass,
+    ae2:BlockDrive cable ae2:BlockDrive,
+    oredictionary:ingotAluminum ae2:ItemMaterial.LogicProcessor oredictionary:ingotAluminum
+    -> ae2:BlockIOPort

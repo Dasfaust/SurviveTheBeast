@@ -1,0 +1,11 @@
+shaped=
+    oredictionary:ingotAluminum cable oredictionary:ingotAluminum,
+    ae2:BlockQuartzGlass ae2:BlockFluix ae2:BlockQuartzGlass,
+    oredictionary:ingotAluminum cable oredictionary:ingotAluminum
+    -> ae2:BlockQuartzGrowthAccelerator
+
+shaped=
+    oredictionary:ingotAluminum fluixCrystal oredictionary:ingotAluminum,
+    oredictionary:ingotAluminum _ _,
+    oredictionary:ingotAluminum fluixCrystal oredictionary:ingotAluminum
+    -> ae2:BlockCharger

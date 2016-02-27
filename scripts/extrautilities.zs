@@ -11,9 +11,9 @@ recipes.remove(<ExtraUtilities:angelRing:2>);
 recipes.remove(<ExtraUtilities:angelRing:3>);
 recipes.remove(<ExtraUtilities:angelRing:4>);
 recipes.addShaped(<ExtraUtilities:angelRing:0>, [
-    [<ore:ingotUnstable>, <Avaritia:Endest_Pearl>, <ore:ingotUnstable>],
-    [<Avaritia:Endest_Pearl>, <Avaritia:Singularity:1>, <Avaritia:Endest_Pearl>],
-    [<ore:ingotUnstable>, <Avaritia:Endest_Pearl>, <ore:ingotUnstable>]
+    [<ore:ingotUnstable>, <Quadrum:bedrockium_component>, <ore:ingotUnstable>],
+    [<simplyjetpacks:components:63>, <simplyjetpacks:components>, <simplyjetpacks:components:63>],
+    [<ore:ingotUnstable>, <simplyjetpacks:jetpacks:4>, <ore:ingotUnstable>]
 ]);
 recipes.addShapeless(<ExtraUtilities:angelRing:1>, [<ExtraUtilities:angelRing:0>, <ore:craftingFeather>]);
 recipes.addShapeless(<ExtraUtilities:angelRing:1>, [<ExtraUtilities:angelRing:2>, <ore:craftingFeather>]);
@@ -33,9 +33,9 @@ recipes.addShapeless(<ExtraUtilities:angelRing:4>, [<ExtraUtilities:angelRing:3>
 recipes.addShapeless(<ExtraUtilities:angelRing:4>, [<ExtraUtilities:angelRing:1>, <ore:ingotGold>]);
 recipes.remove(<ExtraUtilities:watering_can:3>);
 recipes.addShaped(<ExtraUtilities:watering_can:3>, [
-    [<ore:itemBedrock>, <ExtraUtilities:mini-soul>, <Avaritia:Singularity:9>],
-    [<ore:itemBedrock>, <Avaritia:Endest_Pearl>, <ore:itemBedrock>],
-    [<Avaritia:Singularity:9>, <ore:itemBedrock>, <Avaritia:Singularity:9>]
+    [<ore:itemBedrock>, <ExtraUtilities:mini-soul>, <Quadrum:bedrockium_component>],
+    [<ore:itemBedrock>, <pressure:Water>, <ore:itemBedrock>],
+    [<magicalcrops:EndermanSeeds>.withTag({strength:10,gain:10,growth:10,analyzed:1}), <ore:itemBedrock>, <magicalcrops:WitherSeeds>.withTag({strength:10,gain:10,growth:10,analyzed:1})]
 ]);
 recipes.addShaped(<ExtraUtilities:watering_can:0>, [
     [<ore:plateSteel>, null, null],
@@ -63,10 +63,9 @@ mods.extraUtils.QED.addShapedRecipe(<ExtraUtilities:enderQuarryUpgrade>, [
 ]);
 // Alt method to get mobis stable ingots for extra utilities 
 recipes.addShaped(<ExtraUtilities:unstableingot:2>,[[null, <ExtraUtilities:unstableingot:1>,null],[<ExtraUtilities:unstableingot:1>,<minecraft:nether_star>,<ExtraUtilities:unstableingot:1>],[null,<ExtraUtilities:unstableingot:1>,null]]);
-
 // Alt recipe for the deep dark portal
 recipes.addShaped(<ExtraUtilities:dark_portal>,[
-	[<rftools:infusedDiamondItem>,<minecraft:diamond_pickaxe>,<rftools:infusedDiamondItem>],
-	[<rftools:infusedDiamondItem>,<thecorruptedsector:miningPortal>,<rftools:infusedDiamondItem>],
-	[<rftools:infusedDiamondItem>,<ExtraUtilities:cobblestone_compressed:5>,<rftools:infusedDiamondItem>]
+	[<rftools:infusedDiamondItem>, <minecraft:diamond_pickaxe>, <rftools:infusedDiamondItem>],
+	[<rftools:infusedDiamondItem>, <thecorruptedsector:miningPortal>, <rftools:infusedDiamondItem>],
+	[<rftools:infusedDiamondItem>, <ExtraUtilities:cobblestone_compressed:5>, <rftools:infusedDiamondItem>]
 ]);

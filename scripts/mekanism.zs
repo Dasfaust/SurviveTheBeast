@@ -75,7 +75,7 @@ recipes.addShaped(<Mekanism:MachineBlock2:4>, [
 recipes.remove(<MekanismGenerators:Reactor:0>);
 recipes.addShaped(<MekanismGenerators:Reactor:0>, [
     [<ore:circuitElite>, <MekanismGenerators:Reactor:1>, <ore:circuitElite>],
-    [<MekanismGenerators:Reactor:1>, <Avaritia:Singularity:7>, <MekanismGenerators:Reactor:1>],
+    [<MekanismGenerators:Reactor:1>, ultCoil, <MekanismGenerators:Reactor:1>],
     [<ore:circuitElite>, <MekanismGenerators:Reactor:1>, <ore:circuitElite>]
 ]);
 recipes.remove(<MekanismGenerators:Reactor:1>);
@@ -84,7 +84,7 @@ recipes.addShaped(<MekanismGenerators:Reactor:1> * 4, [
     [<Mekanism:BasicBlock:8>, <ore:alloyUltimate>, <Mekanism:BasicBlock:8>],
     [<ore:plateDenseIridium>, <Mekanism:BasicBlock:8>, <ore:plateDenseIridium>]
 ]);
-mods.mekanism.Purification.addRecipe(<ImmersiveEngineering:ore:1>, <gas:oxygen>, <aobd:clumpAluminium>);
+//mods.mekanism.Purification.addRecipe(<ImmersiveEngineering:ore:1>, <gas:oxygen>, <aobd:clumpAluminium>);
 mods.mekanism.Purification.addRecipe(<ReactorCraft:reactorcraft_block_ore:1>, <gas:oxygen>, <aobd:clumpUranium>);
 mods.mekanism.Purification.addRecipe(<gregtech:gt.blockores:945>, <gas:oxygen>, <aobd:clumpAntimony>);
 mods.mekanism.Purification.addRecipe(<gregtech:gt.blockores:1945>, <gas:oxygen>, <aobd:clumpAntimony>);

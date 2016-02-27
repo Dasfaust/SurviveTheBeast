@@ -64,7 +64,7 @@
         "template": "uniform",
         "block": "minecraft:glowstone",
         "material": "minecraft:netherrack",
-        "clusterSize": 8,
+        "clusterSize": 6,
         "numClusters": 2,
         "minHeight": 8,
         "maxHeight": 24,
@@ -77,8 +77,8 @@
     "cs_dimensional_shards": {
         "template": "uniform",
         "block": "rftools:dimensionalShardBlock",
-        "clusterSize": 8,
-        "numClusters": 3,
+        "clusterSize": 6,
+        "numClusters": 2,
         "minHeight": 8,
         "maxHeight": 64,
         "retrogen": "true",
@@ -86,7 +86,7 @@
         "biomes": [
             "all"
         ],
-        "dimensionRestriction": "blacklist",
+        "dimensionRestriction": "whitelist",
         "dimensions": [
             13
         ]

@@ -3,7 +3,7 @@
     {
       "type": "ElementText",
       "properties": {
-        "text": "The mod RFTools offers Mystcraft-like dimension creation. At the moment, you may create dimensions. Non-chunkloaded dimensions will be periodically deleted to conserve on hard drive space. These rules will probably change in the future.\n\nMystcraft book binders have been disabled.",
+        "text": "The mod RFTools offers Mystcraft-like dimension creation. At the moment, you may create dimensions. Non-chunkloaded dimensions will be periodically deleted to conserve on hard drive space. These rules may change in the future.\n",
         "color": -1,
         "x": 33,
         "y": 45,

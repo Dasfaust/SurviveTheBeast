@@ -35,3 +35,12 @@ recipes.addShaped(<ImmersiveEngineering:metalDecoration:5> * 4, [
     [<ore:craftingPiston>, <ore:plateDenseElectrum>, <ore:craftingPiston>],
     [<ore:plateInvar>, <ImmersiveEngineering:material:12>, <ore:plateInvar>]
 ]);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<gregtech:gt.metaitem.01:11316>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<gregtech:gt.metaitem.01:12316>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<gregtech:gt.metaitem.01:12370>);
+mods.immersiveengineering.ArcFurnace.addRecipe(<gregtech:gt.metaitem.01:11316> * 2, <ore:ingotSteel>, <ImmersiveEngineering:material:13> * 2, 120,  2048, [<gregtech:gt.metaitem.01:11081>]);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<gregtech:gt.metaitem.01:11306>);
+mods.immersiveengineering.ArcFurnace.addRecipe(<gregtech:gt.metaitem.01:11306>, <gregtech:gt.metaitem.01:2306>, <ImmersiveEngineering:material:13>, 120,  2048, []);
+mods.immersiveengineering.ArcFurnace.addRecipe(<gregtech:gt.metaitem.01:11305>, <minecraft:iron_ingot>, <IC2:itemCellEmpty>, 10, 3072, [<ore:cellOxygen>]);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<gregtech:gt.metaitem.01:11345>);
+mods.immersiveengineering.ArcFurnace.addRecipe(<gregtech:gt.metaitem.01:11345>, <ore:ingotCopper>, <IC2:itemCellEmpty>, 10, 3072, [<ore:cellOxygen>]);

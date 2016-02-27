@@ -8,7 +8,7 @@ recipes.addShapeless(<Thaumcraft:ItemShard:5>, [<ore:shardEntropy>]);
 
 // Cheat sheet - gain all research
 recipes.addShaped(<Thaumcraft:ItemThaumonomicon:42>, [
-    [null, <Botania:manaResource:14>, null],
-    [<Avaritia:Endest_Pearl>,<Thaumcraft:ItemThaumonomicon>,<Avaritia:Endest_Pearl>],
-    [null, <Botania:manaResource:14>, null]
+    [<Botania:gaiaHead>, <AWWayofTime:weakBloodShard>, <Botania:gaiaHead>],
+    [<AWWayofTime:itemComplexSpellCrystal>, <Thaumcraft:ItemThaumonomicon>, <AWWayofTime:itemComplexSpellCrystal>],
+    [<Botania:manaResource:14>, <AWWayofTime:activationCrystal:1>, <Botania:manaResource:14>]
 ]);

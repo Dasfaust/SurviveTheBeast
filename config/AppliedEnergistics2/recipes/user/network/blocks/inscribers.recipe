@@ -1,0 +1,5 @@
+shaped=
+    oredictionary:ingotAluminum mc:sticky_piston oredictionary:ingotAluminum,
+    fluixCrystal _ oredictionary:ingotAluminum,
+    oredictionary:ingotAluminum mc:sticky_piston oredictionary:ingotAluminum
+    -> ae2:BlockInscriber

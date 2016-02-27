@@ -1,0 +1,13 @@
+shaped=
+    oredictionary:ingotAluminum ae2:ItemMaterial.FormationCore oredictionary:ingotAluminum,
+    _ mc:piston _
+    -> ae2:ItemPart.ExportBus
+
+shaped=
+    _ ae2:ItemMaterial.AnnihilationCore _,
+    oredictionary:ingotAluminum mc:sticky_piston oredictionary:ingotAluminum
+    -> ae2:ItemPart.ImportBus
+    
+shapeless=
+    interface mc:sticky_piston mc:piston
+    -> ae2:ItemPart.StorageBus
